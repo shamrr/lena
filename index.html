@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaQuest</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__line">
+                <h1 class="title">JavaQuest</h1>
+                <div class="header__container">
+                    <nav>
+                        <ul class="navbar">
+                            <li class="navbar__item"><a href="#" class="navbar__link">Главная</a></li>
+                            <li class="navbar__item"><a href="#about" class="navbar__link">О нас</a></li>
+                            <li class="navbar__item"><a href="#services" class="navbar__link">Обучение</a></li>
+                            <li class="navbar__item"><a href="#footer" class="navbar__link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="icons" onclick="menu.showDropMenu()">
+                        <img src="icons/profile.png" alt="profile" class="profile">
+                    </a>
+                    <div class="sidebar">
+                        <div class="hamburger"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="welcome" id="welcome">
+            <h2 class="welcome__block">
+                Добро пожаловать<br>на JavaQuest!
+            </h2>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="subtitle about__subtitle">О нас</h2>
+                <div class="about__border">
+                    <div class="about__container">
+                        <p class="about__text">Почему выбирают нас?</p>
+                        <br>
+                        <ul class="about-list">
+                            <li class="about-list__item">
+                                <div class="about-list__img">
+                                    <img src="icons/rocket.png" alt="rocket">
+                                </div>
+                                Материалы созданы
+                                <span class="highlight">
+                                    ведущими профессионалами
+                                </span> 
+                                чтобы обеспечить максимальную эффективность при обучении и подготовке
+                            </li>
+                            <li class="about-list__item">
+                                <div class="about-list__img">
+                                    <img src="icons/world.png" alt="world">
+                                </div>
+                                Практическая направленность на
+                                <span class="highlight">
+                                    реальные задачи, 
+                                </span> 
+                                встречающиеся на собеседованиях
+                            </li>
+                            <li class="about-list__item">
+                                <div class="about-list__img">
+                                    <img src="icons/lock.png" alt="lock">
+                                </div>
+                                Мы следим за изменениями и вносим коррективы в материалы, чтобы вы всегда были в курсе
+                                <span class="highlight">
+                                    последних технологических новинок
+                                </span>
+                            </li>
+                        </ul>
+                        <br>
+                        <p class="about__text">Подготовьтесь к новым высотам в своей карьере. Начните свой путь прямо сейчас!</p>
+                    </div>
+                    <a href="#services" class="btn about__btn">Начать подготовку</a>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="subtitle services__subtitle">Что мы предлагаем</h2>
+                <div class="services__container">
+                    <a class="service">
+                        <img src="img/materials.jpg" alt="service" class="service__img">
+                        <p class="service__title">Учебные материалы</p>
+                    </a>
+                    <a class="service">
+                        <img src="img/tasks.jpg" alt="service" class="service__img">
+                        <p class="service__title">Практические задачи</p>
+                    </a>
+                    <a class="service">
+                        <img src="" alt="service" class="service__img">
+                        <p class="service__title">Нетехническая часть</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__text">
+                © Если хотите добавить любые материалы, запросите права Администратора в личном кабинете, следуя инструкции.
+            </div>
+            <div class="footer__text">
+                © 2024 Ваше приложение. Все права защищены.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

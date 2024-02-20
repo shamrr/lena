@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap');
+.container{
+    max-width: 140rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.title{
+    color: #fff;
+    font-family: 'Forum';
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 5rem;
+    letter-spacing: .06rem;
+}
+.subtitle{
+    color: #0C0C0E;
+    font-family: 'Forum';
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+.subtitle::after{
+    content: "";
+    display: block;
+    width: 5rem;
+    height: .1rem;
+    background-color: #0C0C0E;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.btn{
+    font-size: 3rem;
+    border-radius: .2rem;
+    border: .1rem solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    background-color: #fff;
+    transition: all .4s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #BB945F;
+}
+/*header styles start*/
+.header{
+    background-color: #0C0C0E;
+}
+.header__line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    height: 9rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    height: 5rem;
+}
+.navbar__link{
+    color: #FFF;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    transition: all .4s;
+}
+.navbar__link:hover{
+    color: #BB945F;
+}
+.icons{
+    margin-left: 4rem;
+}
+/*header styles end*/
+
+
+/*welcome styles start*/
+.welcome{
+    width: 100%;
+    padding: 22rem 0 16rem 0;
+    background-color: #e0c3bf;
+}
+.welcome__block{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Forum';
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    background-color: #0C0C0E;
+    max-width: 60rem;
+    padding: 3.5rem 4rem;
+}
+/*welcome styles end*/
+
+
+/*about styles start*/
+.about{
+    padding: 2rem 0 9.6rem 0;
+}
+.about__subtitle{
+    margin-bottom: 4rem;
+}
+.about__border{
+    border: .3rem solid #BB945F;
+    padding: 3rem;
+    width: 100%;
+}
+.about__container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #BB945F;
+}
+.highlight{
+    color: #BB945F;
+}
+.about__text{
+    font-size: 2rem;
+    line-height: 4rem;
+}
+.about__btn{
+    display: block;
+    width: 30rem;
+    padding: 1rem 0;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.about-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.about-list__item{
+    background-color: #fff;
+    padding: .8rem 2rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    border-radius: 1rem;
+    
+
+}
+.about-list__img{
+    width: 4rem;
+    height: 4rem;
+    border: .2rem solid  #BB945F;
+    border-radius: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+.about-list__img img{
+    width: 2.6rem;
+    height: 2.6rem;
+}
+/*about styles end*/
+
+
+/*services styles start*/
+.services{
+    padding: 2rem 0 9.6rem 0;
+}
+.services__subtitle{
+    margin-bottom: 4rem;
+}
+.services__container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.service{
+    max-width: 36rem;
+    width: 100%;
+    border: .1rem solid #0C0C0E;
+    transition: all .3s;
+    cursor: pointer;
+}
+.service:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.service__img{
+    max-width: 36rem;
+    width: 100%;
+    height: 20rem;
+}
+.service__title{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 4rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+/*services styles end*/
+
+
+/*footer styles start*/
+.footer{
+    background-color: #0C0C0E;
+    padding: 3rem 0 3rem 0;
+}
+.footer__text{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: center;
+}
+.footer__text:not(:last-child){
+    margin-bottom: 2rem;
+}
+/*footer styles end*/
